@@ -1,0 +1,43 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="style/anim.css">
+</head>
+
+<body onload="rafon()">
+  <div class="header">Me, Header</div>
+  <div class="item ball"></div>
+  <!-- <div class="ball" style="top:200px"></div> -->
+
+  <div id="chScrew" style="position:absolute;bottom:10px;right:12px">
+
+    <span>
+      <button onclick="toggle(this)">Switch to 30 FPS</button>
+      <button onclick="switchClass(this)">Keep it simple</button>
+    </span>
+
+    <span>
+      <button onclick="upit()"> Load objects </button>
+      <button onclick="clearit()"> Clear objects </button>
+    </span>
+
+
+    <span>
+      <button onclick="setion()"> use setInterval </button>
+      <button onclick="trashDom()"> trash DOM </button>
+      <button onclick="layerit()"> CSS transform </button>
+    </span>
+
+
+    <span>
+      <button onclick="addBar(this)"> Add bar </button>
+      <button onclick="layerBar(this)"> Add hint </button>
+      <button onclick="layeroff(this)" style="background-color: grey;color: white;width: 120px;border: solid white 1px;"> Reset </button>
+    </span>
+
+  </div>
+</body>
+
+<script src="js/anim.js"></script>
+</html>
